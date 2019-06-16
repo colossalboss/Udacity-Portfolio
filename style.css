@@ -167,3 +167,32 @@ header {
          font-size: 17px;
      }
  }
+
+ .normal {
+     width: 31%;
+ }
+
+ .box {
+     height: 300px;
+ }
+
+ .memory-box {
+     /* width: 31%; */
+     background-image: url(img/memory.png);
+}
+
+.appify-box {
+    background-image: url(img/appify.jpg);
+}
+
+.flower-box {
+    background-image: url(img/flower.jpg);
+}
+
+.bokeh-box {
+    background-image: url(img/bokeh.jpg);
+}
+
+.bg-color {
+    background-color: yellow;
+}
