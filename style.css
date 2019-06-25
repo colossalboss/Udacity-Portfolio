@@ -32,6 +32,7 @@ header {
 
 .logo {
     width: 50%;
+    border-radius: 50%;
 }
 
 .big {
@@ -174,25 +175,69 @@ header {
 
  .box {
      height: 300px;
+     border-radius: 10px;
  }
 
  .memory-box {
      /* width: 31%; */
-     background-image: url(img/memory.png);
+     background-image: url(img/design.png);
 }
 
-.appify-box {
-    background-image: url(img/appify.jpg);
+.pixel-box {
+    background-image: url(img/pixel.png);
 }
 
-.flower-box {
-    background-image: url(img/flower.jpg);
+.memory-game-box {
+    background-image: url(img/design.png);
 }
 
-.bokeh-box {
-    background-image: url(img/bokeh.jpg);
+.restaurant-box {
+    background-image: url(img/pixel.png);
+}
+
+.house-box {
+    background-image: url(img/pixel.png);
+}
+
+.arcade-box {
+    background-image: url(img/pixel.png);
 }
 
 .bg-color {
     background-color: yellow;
+}
+
+.reduce {
+    margin-top: 2.5em;
+    padding: 0.5em;
+}
+
+.bg-pixel {
+    background-color: rgba(000, 44, 000, 0.4);
+    height: 300px;
+}
+
+.bg-res {
+    background-color: rgba(100, 44, 000, 0.4);
+    height: 300px;
+}
+
+.bg-memory {
+    background-color: rgba(000, 44, 100, 0.4);
+    height: 300px;
+}
+
+.bg-arcade {
+    background-color: rgba(80, 44, 000, 0.4);
+    height: 300px;
+}
+
+.bg-house {
+    background-color: rgba(50, 000, 50, 0.4);
+    height: 300px;
+}
+
+.bg-add {
+    background-color: rgba(444, 44, 000, 0.4);
+    height: 300px;
 }
